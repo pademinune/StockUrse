@@ -1,5 +1,5 @@
 # StockUrse
-My own chess bot in python (it's not good at chess). After every move, it will print the current board to the console (although it's recommended to follow on your own board for better graphics)
+My own chess bot in python. After every move, it will print the current board to the console (although it's recommended to follow on your own board for better graphics)
 
 If you want to play as black, set 'youAreWhite' to 'False'.
 
