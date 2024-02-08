@@ -690,47 +690,7 @@ if youAreWhite is not None:
             elif game.hasEnded(not whiteTurn) == -1:
                 print("COMPUTER WON!")
                 break
-            # print(game.board)
-            # if len(captures.values()) != 0:
-            #     # thing,attack = game.maxCapture(captures)
-            #     bestCapture = None
-            #     # print(captures)
-            #     for P,Pcaptures in captures.items():
-            #         for capture in Pcaptures:
-            #             currentCoord = P.location
-            #             currentVictim = game.board[capture[0]][capture[1]]
-            #             P.capture(capture)
-            #             eval = game.boardAnalysis()
-            #             P.move(currentCoord)
-            #             currentVictim.updateLoc(currentVictim.location)
-            #             currentVictim.updatePieces()
-            #             if bestCapture is None:
-            #                 bestCapture = [abs(eval),P,capture]
-            #             elif abs(eval) > bestCapture[0]:
-            #                 bestCapture = [abs(eval),P,capture]
-                
-            #     print(str(turn)+".",game.convertCoord(bestCapture[1].location),game.convertCoord(bestCapture[2]))
-            #     bestCapture[1].capture(bestCapture[2])
-            # elif len(moves.values()) != 0:
-            #     # for P,Pmoves in moves.items():
-            #     #     for move in Pmoves:
-            #     #         currentCoord = P.location
-            #     #         P.move(capture)
-            #     #         eval = game.boardAnalysis()
-            #     #         P.move(currentCoord)
-            #     #         currentVictim.updateLoc(currentVictim.location)
-            #     #         currentVictim.updatePieces()
-            #     #         if bestCapture is None:
-            #     #             bestCapture = [abs(eval),P,capture]
-            #     #         elif abs(eval) > bestCapture[0]:
-            #     #             bestCapture = [abs(eval),P,capture]
-            #     k = list(moves.keys())
-            #     index = randint(0,len(k)-1)
-            #     thing = k[index]
-            #     # print(moves)
-            #     newLoc = moves[thing][randint(0,len(moves[thing])-1)]
-            #     print(str(turn)+".",game.convertCoord(thing.location),game.convertCoord(newLoc))
-            #     thing.move(newLoc)
+            
         turn += 1
 else:
     while True:
