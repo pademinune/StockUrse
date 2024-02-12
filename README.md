@@ -11,4 +11,9 @@ e2 e4
 
 This moves the piece on e2 to e4. In the original starting position, this would move a pawn to e4.
 
+After the bot finishes thinking, this is what it outputs:
+
+![image](https://github.com/pademinune/StockUrse/assets/86390271/fa2faa3a-fb04-4450-829a-f770f813c24a)
+
+
 You can also run it in this replit, however it will take much longer to think (around 10 seconds): https://replit.com/join/awunerszee-justinnitoi1
