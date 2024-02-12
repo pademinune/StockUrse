@@ -17,3 +17,5 @@ After the bot finishes thinking, this is what it outputs:
 
 
 You can also run it in this replit, however it will take much longer to think (around 10 seconds): https://replit.com/join/awunerszee-justinnitoi1
+
+It works by calculating every possible move it can make, followed by every possible move the opponent can make to create a tree and output the best move. Unfortunately it must run on very low depth because the amount of lines it must calculate grows exponentially. In the future, I want to improve this by finding ways to ignore certain moves that are likely to be bad so I can then increase the depth.
